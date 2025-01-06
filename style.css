@@ -1,0 +1,483 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body .nav_main{
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:10px;
+    border-bottom:1.5px solid rgb(17, 16, 16);
+    position: fixed; /* Fixes the navigation bar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Makes it span the full width of the page */
+    background-color: #ffffff; /* Background color of the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visibility */
+    z-index: 1000; 
+    
+}
+body .nav_main .nav_main1{
+    display: flex;
+    font-size:2rem;
+
+}
+body .nav_main .nav_main1 img{
+    height:40px;
+    width:auto;
+    
+
+}
+body .nav_main .nav_main2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body .nav_main .nav_main2 .nav_main2ii{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body .nav_main .nav_main2 a{
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+body .nav_main .nav_main2 a:hover{
+    text-decoration: underline;
+}
+body .nav_main .nav_main2 .nav_main2ii{
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+body .nav_main .nav_main2 .nav_main2ii i{
+    font-size: 1.1rem;
+}
+body .nav_main .hamburg-menu{
+    font-size: 2rem; 
+    display: none;
+    cursor: pointer;
+}
+
+body .hero_section{
+    justify-content: space-between;
+     margin: 10px 20px;
+     margin-top: 80px;
+    display: flex;
+    
+    
+}
+body .hero_section .hero_section1{
+    margin-top: 10px;
+}
+
+
+body .hero_section .hero_section1 h2{
+    color: rgb(17, 16, 16);
+    font-size: 7rem;
+}
+.fade_in {
+    opacity: 0;
+    animation: fadeIn 3s forwards; /* Animation duration and setting forwards */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body .hero_section .hero_section1 p{
+    font-size:1.2rem ;
+    color: rgb(94, 94, 94);
+    margin-top: 20px;
+
+}
+
+body .hero_section .hero_section1 a {
+    display: inline-block;
+    padding: 10px 200px;
+    background: rgb(94, 94, 94);
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size:  1.1em;
+    
+  }
+  body .hero_section .hero_section1 a:hover{
+    background: rgb(17, 16, 16);
+    color: white;
+
+  }
+body .hero_section .hero_section2 img{
+    border-radius: 0 0 0 30px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+
+body .ease_of_use{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:100px 20px 0 20px;
+    /* border: 1px solid black; */
+}
+
+body .ease_of_use img{
+ width: 420px;
+ height: 300px;
+ border-radius: 30px;
+ filter: grayscale(100%); /* Makes the image grey by default */
+ transition: filter 0.3s ease-in-out;
+
+}
+body .ease_of_use div:hover img{
+    filter: grayscale(0%);
+    filter: hue-rotate(-90deg)
+}
+body .ease_of_use a{
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    font-size: 1.1rem;
+    margin-top: 340px;
+}
+
+body .news_letter{
+    display: flex;
+    background-color:rgba(31, 31, 31, 1);
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+    justify-content: space-between; /* Ensure items are spaced apart */
+    align-items: flex-end; /* Align items along the vertical axis */
+}
+body .news_letter p{
+    font-size:2.8rem ;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+body .news_letter input{
+    border: none;  
+    border-bottom: 1px solid #ffffff;
+    background-color: rgba(31, 31, 31, 1);
+    padding: 0 100px 20px 0; 
+
+}
+
+body .news_letter input:focus {
+    outline: none; /* Removes the blue border */
+    border-color: #ffffff; /* Optional: Add a custom border color */
+    box-shadow: 0 0 5px rgba(248, 248, 248, 0.5); /* Optional: Add a subtle glow */
+}
+body .news_letter input::placeholder{
+    color: #ffffff;
+    font-size: 1rem;
+}
+body .news_letter .checkbox-container label{
+    margin-top:10px ;
+    color: white;
+}
+body .news_letter form button{
+    padding: 10px 50px;
+    background-color: rgb(94, 94, 94);
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+body .news_letter form button:hover{
+    background: rgb(17, 16, 16);
+}
+
+
+body .news_letter div:last-child {
+    align-self: flex-end; /* Position at the bottom of the container */
+    margin-right: 0; /* Optional: Removes any default margin */
+}
+
+body .news_letter .form2{
+    margin-top: 20px;
+}
+
+body .news_letter .form2 label{
+    color: white;
+}
+
+
+body .contact_us{
+    display: flex;
+    margin: 50px 20px 120px 20px;
+    justify-content: space-between;
+}
+body .contact_us .contact1 p:first-of-type{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(31, 31, 31, 1);
+
+}
+
+
+body .contact_us .contact1 i{
+    color: rgba(31, 31, 31, 1);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+body .contact_us .contact1 button{
+    padding: 10px 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    margin-top: 10px;
+}
+body .contact_us .contact1 .email-button {
+    padding: 10px 50px;
+    font-size: 1rem;
+    display: inline-block;
+    background-color: rgb(94, 94, 94);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+body .contact_us .contact1 .email-button:hover{
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+body .contact_us .contact2{
+    color: white;
+    background-color:rgba(31, 31, 31, 1);
+}
+
+body .contact_us > .contact2 {
+    align-self: flex-end; /* Only the middle div aligns to its content height */
+    padding: 15px;
+    line-height: 1.5;
+    
+}
+
+
+
+body .contact_us .contact3 .footer_logo {
+    display: flex;
+    font-size:2rem;
+
+}
+body .contact_us .contact3 .footer_logo img{
+    height:40px;
+    width:auto;
+    
+
+}
+
+        .ticker-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #222;
+            color: #fff;
+            overflow: hidden;
+        }
+        .ticker {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 10px;
+            animation: scroll 15s linear infinite;
+            padding-left: 90%;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+
+
+/* styling drop downcontent------------- */
+body .ease_of_use .brands-container .dropdown-menu {
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+body .ease_of_use .brands-container .dropdown-menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    padding: 15px;
+    
+}
+
+body .ease_of_use .brands-container .dropdown-menu a:hover {
+    background-color:rgb(94, 94, 94);
+    color: white;
+}
+
+/* Display dropdown when active */
+body .ease_of_use .brands-container.active .dropdown-menu {
+    display: block;
+}
+
+
+/* styling population from java script----------------------------------------> */
+
+#goods{
+    
+    margin: 20px 20px 20px 20px;
+}
+
+body #goods #product-list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+    row-gap: 20px;
+    
+   
+    
+}
+
+
+body #goods #product-list .product img{
+    width: 100%;
+    height: 250px;
+    
+}
+body #goods #product-list a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: rgb(94, 94, 94);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+body #goods #product-list a:hover {
+    background: #0056b3;
+  }
+
+
+body #goods #product-list .product {
+    border: 1px solid #000000;
+    max-width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+body #goods #product-list .product .brief-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.compare-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.compare-btn:hover {
+    background-color: #0056b3;
+}
+
+#comparison-section {
+    margin-top: 20px;
+}
+#comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#comparison-table th,
+#comparison-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* styling the hamburg-menu------------------------------------------ */
+body .nav_main .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Completely hide the sidebar off-screen */
+    width: 250px;
+    height: 100%;
+    background: #444;
+    color: #fff;
+    transition: left 0.3s ease;
+    padding: 20px;
+    z-index: 1001;
+    
+}
+
+body .nav_main .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    margin-top: 20px;
+}
+
+body .nav_main .sidebar a:hover {
+    text-decoration: underline;
+}
+body .nav_main .sidebar .sidebar-links{
+    display: block; /* Ensure links are stacked vertically */
+    width: 100%; /* Make the sidebar take full width */
+}
+
+
+/* Overlay styling */
+body .nav_main .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+/* Active states */
+body .nav_main .sidebar.active {
+    left: 0; /* Sidebar slides in */
+}
+
+body .nav_main .overlay.active {
+    display: block; /* Show the overlay */
+}
+
+body .nav_main  .nav_main1 #visitor-count{
+    font-size: 0.9rem;
+}
