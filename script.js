@@ -13,7 +13,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p> 
                 <button class="compare-btn" data-id="6">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -22,7 +22,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $200</p>
                 <button class="compare-btn" data-id="7">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -31,7 +31,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $180</p>
                 <button class="compare-btn" data-id="8">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -40,7 +40,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="9">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -49,7 +49,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $80</p>
                 <button class="compare-btn" data-id="10">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
@@ -67,7 +67,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p>
                 <button class="compare-btn" data-id="1">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -76,7 +76,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $200</p>
                 <button class="compare-btn" data-id="2">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -85,7 +85,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $180</p>
                 <button class="compare-btn" data-id="3">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -94,7 +94,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="4">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -103,7 +103,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $80</p>
                 <button class="compare-btn" data-id="5">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
@@ -121,7 +121,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p>
                 <button class="compare-btn" data-id="11">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -130,7 +130,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $200</p>
                 <button class="compare-btn" data-id="12">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -139,7 +139,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $180</p>
                 <button class="compare-btn" data-id="13">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -148,7 +148,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="14">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -157,7 +157,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $80</p>
                 <button class="compare-btn" data-id="15">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
@@ -177,7 +177,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p>
                 <button class="compare-btn" data-id="16">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -186,7 +186,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $200</p>
                 <button class="compare-btn" data-id="17">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -195,7 +195,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $180</p>
                 <button class="compare-btn" data-id="18">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -204,7 +204,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="19">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
@@ -229,7 +229,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p>
                 <button class="compare-btn" data-id="20">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -238,7 +238,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $200</p>
                 <button class="compare-btn" data-id="21">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -247,7 +247,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $180</p>
                 <button class="compare-btn" data-id="22">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -256,7 +256,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="23">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
@@ -278,7 +278,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $30</p>
                 <button class="compare-btn" data-id="24">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -287,7 +287,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $280</p>
                 <button class="compare-btn" data-id="25">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>
 
             <div class="product">
@@ -296,7 +296,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $150</p>
                 <button class="compare-btn" data-id="26">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
             <div class="product">
@@ -305,7 +305,7 @@ const pages = {
                 <div class="brief-description"><p>Brief product description <br> of this product</p></div>
                 <p>Price: $3380</p>
                 <button class="compare-btn" data-id="27">Compare</button>
-                <a href="documents/ProductB.docx" download>Download Full Details</a>
+                <a href="Documents/ProductB.docx" download>Download Full Details</a>
             </div>   
 
 
