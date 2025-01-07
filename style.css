@@ -315,7 +315,7 @@ body .footer .legal_area a:hover{
             position: fixed;
             bottom: 0;
             width: 100%;
-            background-color: #222;
+            background-color: rgb(17, 16, 16);
             color: #fff;
             overflow: hidden;
         }
