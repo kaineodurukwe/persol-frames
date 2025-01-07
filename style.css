@@ -233,9 +233,13 @@ body .contact_us .contact1 p:first-of-type{
 
 
 body .contact_us .contact1 i{
-    color: rgba(31, 31, 31, 1);
+    color: rgb(94, 94, 94);
     font-size: 1.5rem;
     margin-top: 20px;
+}
+
+body .contact_us .contact1 i:hover{
+    color: #000000;
 }
 
 body .contact_us .contact1 button{
@@ -288,6 +292,24 @@ body .contact_us .contact3 .footer_logo img{
     
 
 }
+body .footer{
+    background-color: rgb(17, 16, 16);
+    padding: 30px 20px 50px 20px;
+    
+}
+body .footer .legal_area a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 1.1rem;
+
+}
+body .footer .legal_area a:hover{
+    color: #ccc;
+    text-decoration: underline;
+}
+
+
 
         .ticker-container {
             position: fixed;

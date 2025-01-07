@@ -8,7 +8,7 @@
   
   
   
-  /* Large devices (laptops/desktops, 1400px and below) */
+  /* Large devices (laptops/desktops, 1250px and below) */
   @media (width < 1250px){
     body .ease_of_use img{
         width: 350px;
@@ -44,7 +44,7 @@
 }
   
   
-  /* Small devices (portrait tablets and large phones, 600px and below) */
+  /*  (portrait tablets and mini Laptops, 900px and below) */
   
   @media (width <= 930px) {
     body .hero_section .hero_section1 h2{
@@ -119,6 +119,7 @@
    
 
 }
+/* mobile screens */
 
 @media (width <= 740px){
 
